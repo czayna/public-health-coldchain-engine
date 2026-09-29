@@ -1,0 +1,24 @@
+# ============================================================
+# Public Health Vaccine Cold-Chain Supply Chain Engine
+# Python Dependencies
+# ============================================================
+
+# --- Backend: API & Database ---
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.6
+sqlalchemy>=2.0.35
+pydantic>=2.9.2
+
+# --- Frontend: Dashboard ---
+streamlit>=1.38.0
+plotly>=5.24.0
+pandas>=2.2.0
+requests>=2.31.0
+
+# --- Database Driver (PostgreSQL) ---
+# Uncomment for PostgreSQL production deployment:
+# psycopg2-binary==2.9.9
+
+# --- Development & Testing ---
+# pytest==8.3.3
+# httpx==0.27.2
